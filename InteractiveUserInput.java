@@ -1,5 +1,7 @@
 import java.util.Scanner
 
+@author SmallMan90
+
 /**
  * A Java programmer to take user Inputs Interactively
  *
