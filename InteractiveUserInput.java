@@ -1,9 +1,11 @@
-import java.util.Scanner
+import java.util.Scanner;
 
-@author SmallMan90
+
 
 /**
  * A Java programmer to take user Inputs Interactively
+ *
+ * @author SmallMan90
  *
  */
  
@@ -20,9 +22,9 @@ import java.util.Scanner
 		 //get the input provided by the user
 		 String BookName = input.nextLine();
 		 
-		 String output = format("%s is the name of the book");
+		 String output = String.format("%s is the name of the book", BookName);
 		 
-		 System.out.println("output");
+		 System.out.println(output);
 		 }
 		 
 	}
